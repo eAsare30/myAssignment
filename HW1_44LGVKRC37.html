@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+    .container{
+    background-color:rgb(211, 208, 208);
+    margin: -10px;
+    width: 100%;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    border: 2px;
+}
+#Fname{
+    padding: 10px ,10px ,5px, 0px;
+    font-weight: bold;
+}
+
+.Fname{
+    height: 200px;
+    border-radius: 1px;
+   
+}
+.button{
+    padding: 25px 10px 5px 0px;
+    margin-left: 25px;   
+}
+#submit{
+    background-color:   rgba(25, 199, 25, 0.644);
+    border: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Lname{
+    padding: 0px;
+    height: 50px;
+    border-radius: 1px;
+}
+   
+   .h1{
+       text-align: center;
+   }
+          
+      </style>
+</head>
+
+<body >
+
+    <form  class ="container" >
+       
+        <div class =  form >
+            <h1 class = "h1">CONTACT DETAILS</h1> 
+        <label id="fname">First name</label><br>
+        <input type="text" id="fname" class="Lname" placeholder="Your name...."><br>
+      </div>
+      <div class = form>
+        <label id="fname">Last name</label><br>
+        <input type="text" id="fname" class="Lname" placeholder="Your last name..."><br>
+       
+      </div >
+       <div class = form> 
+        <br><label >Country</label><br>
+        <select class="Lname">
+            <option value ="Australia">Australia</option>
+            <option value ="Ghana">Ghana</option>
+            <option value ="South Africa">South Africa</option>
+            <option value ="Kenya">kenya</option>
+         </select>
+       </div>
+        <br>
+      
+       </div >
+        <div class = form>
+         
+          <label id="fname">Subject</label><br>
+          <input type="text" id="fname" class="Fname"name="subject"placeholder="Write something....">
+    
+        </div><br>
+        
+        <div class="button">
+         <button id="submit">Submit</button>
+           </div> 
+     </form>
+</body>
+</html>
